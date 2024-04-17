@@ -1,0 +1,123 @@
+/* DMCR */
+div.module-content.box {                                     
+    color: a1d8ee;                                                 
+    background-color: rgb(0,0,0,0);                  
+    text-align: center;                                             
+    border: 0px;
+    font-size: 18px;
+}                                                  
+body{
+    font-family: 'Mitr', sans-serif;					/*ฟอนต์ที่ไม่ได้มาจาก Template*/
+    color: #012d3b;						/*สีฟอนต์ที่ไม่ได้มาจาก Template*/
+    background: /*#5eabdb;*//*#a1d8ee*/#EEF0F0;
+}
+footer.site-footer {						
+    /* ส่วนของ Footer */
+    background: #095179;					
+    /* สี Background ของ Footer */
+}
+
+.homepage .module-search label:first-of-type {			
+    /* //Text ค้นหาชุดข้อมูล */
+    color: #000000;
+}
+
+
+.masthead {
+    background-color: rgb(238 240 240);
+    /*background:##A3DFF7;*/
+    /*background:#cd4527;*/                                                	
+    /* //แถบสีพื้นหลัง เมนู */
+}
+
+.box{							
+    /* //คลาสกรอบ */
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.row1 .module-search form {
+ background: transparent !important;
+}
+
+.stats,.row1 .module-search {					
+    /* //ภายใต้ค้นหาชุดข้อมูล */
+    font-family: 'Mitr', sans-serif;
+    background-color: transparent;
+    border: 0px solid #ffffff !important;
+    border-radius: 10px;
+}
+
+.module module-search module-narrow module-shallow box{
+color: #000000
+}
+
+.homepage .module-search, .tags {
+    background-color: transparent !important;
+    padding: 10px;
+}
+
+.inner {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+
+.homepage .box .inner {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+}
+
+.stats h3,.stats ul li a,.stats ul li a strong span {
+   color:#000000;
+
+}
+
+.row2 .box {						
+    /* //เส้นขอบ */
+    background-color: transparent !important;
+    border: none  !important;
+    border-radius: 20px  !important;
+    -webkit-box-shadow: none  !important;
+    box-shadow: none  !important;
+}
+.row2 .box header {
+   background-color: rgb(061 141 184 / 40%);
+   border-radius: 0px !important;
+   transition: .5s;
+   box-shadow: none;
+   border:0px;
+   -webkit-box-shadow: none;
+}
+.row2 .box header:hover {
+    background-color: rgb(255 255 255 / 80%);
+}
+.row1 .col1 .module-content section img {
+   border-radius: 20px !important;
+}
+
+.row2 .box header a {
+   text-decoration-line: none;
+}
+.row2 .box .module-image img {
+   width:100%;
+   max-width: none !important;
+   max-height: none !important;
+   margin-top: -10px;
+   margin-right: -10px;
+}
+.row2 .box .module-image {
+   width:120px;
+   height: 80px;
+}
+.group-list .module-heading h1 {
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+
+.heading, .inner h3, .inner ul li a, .inner ul li a strong span {			
+    /* //ชุดข้อมูล องค์กร กลุ่ม */
+   color:#ff0000;
+}
